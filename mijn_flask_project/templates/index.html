@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <form method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="naam" id="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+        <button type="submit">Inloggen</button>
+    </form>
+    <br>
+    <a href="/logout">
+        <button id="loguit">log uit</button>
+    </a>
+    <h4>{{naam}}</h4>
+
+
+</body>
+</html>
